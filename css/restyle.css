@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    color: rgb(6, 9, 4);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+
+}
+.nav-link{
+     margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 60px;
+    border:2px solid rgb(248, 26, 92);
+    margin-right: -35px;
+    outline: none;
+}
+.btn0{
+height: 40px;
+width: 40%;
+border: none;
+background-color: rgb(248, 26, 92);
+color: white;
+border-radius: 60px;
+font-weight: 600;
+}
+/*end navbar*/
+
+/*start main secion*/
+
+.mymain{
+    background-image: url("../img/2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+   
+
+}
+.mymain h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+/*end main secion*/
+
+/*start icon section*/
+.iconc img{
+    width: 120px;
+    height: 120px;
+}
+
+.btn1:hover{
+    background-color: rgb(253, 34, 56);
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.70);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.70);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.70);
+    transition: 0.5s;
+}
+
+/*end icon section*/
+
+/*apple section*/
+.apple{
+    background-image: url(../img/pexels-andrea-piacquadio-3765117.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster Two', cursive;
+    color: rgb(255, 150, 45);
+}
+
+
+/*end apple sec*/
+
+/*start news*/
+
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background-color: aliceblue;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid wheat;
+    outline: none;
+    background-color: black;
+    color: white;
+    
+    font-weight: 400;
+     
+}
+
+.news p{
+    margin: 0;
+}
+.news span a{
+    color: white;
+}
+
+
+
+
+
+
+
+
